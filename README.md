@@ -18,17 +18,17 @@ def login():
 ```javascript
     pilih = input("\n\tSilahkan Pilih : ")
  ```
-## jika dipilih angka 1, maka akan menampilkan sebuah output penilaian mahasiswa, dimana output itu berasal dari module yang telah dibuat pada library, yang dipackage dengan nama 'perhitungan'. Module tersebut bisa dilihat di sini [github](https://github.com/KSofi/penilaian_mahasiswa/blob/master/penilaian_mahasiswa.py)
+## jika dipilih angka 1, maka akan menampilkan sebuah output penilaian mahasiswa, dimana output itu berasal dari module yang telah dibuat pada library, yang dipackage dengan nama 'perhitungan'. Module tersebut bisa dilihat disini (https://github.com/KSofi/penilaian_mahasiswa/blob/master/penilaian_mahasiswa.py)
 ```javascript
     if pilih == "1":
         from perhitungan.penilaian_mahasiswa import tt
 ```
-## begitupun jika input angka 2, berarti memanggil sebuah module yang telah dibuat pada library, yang dipackage dengan nama 'perhitungan', module itu bernama 'pembayaran-mahasiswa', bisa dilihat di [github] (https://github.com/KSofi/pembayaran_mahasiswa/blob/master/pembayaran_mahasiswa.py) yaaa...
+## begitupun jika input angka 2, berarti memanggil sebuah module yang telah dibuat pada library, yang dipackage dengan nama 'perhitungan', module itu bernama 'pembayaran-mahasiswa', bisa dilihat di (https://github.com/KSofi/pembayaran_mahasiswa/blob/master/pembayaran_mahasiswa.py) yaaa...
 ```javascript
     elif pilih == "2":
         from perhitungan.pembayaran_mahasiswa import pembayaran
 ```
-## dan jika dipilih angka 3, maka akan muncul sebuah tampilan kalkulator. Module kalkulator sendiri bisa dilihat di [github] (https://github.com/KSofi/kalkulator/blob/master/kalkulator.py)
+## dan jika dipilih angka 3, maka akan muncul sebuah tampilan kalkulator. Module kalkulator sendiri bisa dilihat di (https://github.com/KSofi/kalkulator/blob/master/kalkulator.py)
 ```javascript
 elif pilih == "3":
         from perhitungan.kalkulator import kalkulator
